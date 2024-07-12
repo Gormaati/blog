@@ -2,13 +2,13 @@
 title: Banjara Community Blog
 email: naveenkorra2014@gmail.com
 description: >-
-  A blog dedicated to sharing information and stories about the Banjara 
-community. Available in multiple languages including English, Telugu, and 
-Hindi.
+  A blog dedicated to sharing information and stories about the Banjara
+  community. Available in multiple languages including English, Telugu, 
+and
+  Hindi.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://username.github.io" # the base hostname & protocol for your 
-site, 
-replace with your site's URL
+url: "https://gormaati.github.io" # Replace with your actual GitHub Pages 
+URL
 twitter_username: Gormati
 github_username: Gormaati
 
@@ -19,6 +19,9 @@ languages: ["en", "te", "hi"]
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-default-layout
+  - jekyll-optional-front-matter
 
 # Exclude from processing
 exclude:
