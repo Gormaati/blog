@@ -6,7 +6,8 @@ description: >-
 community. Available in multiple languages including English, Telugu, and 
 Hindi.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.com/Gormaati/blog" # the base hostname & protocol for your site, 
+url: "https://username.github.io" # the base hostname & protocol for your 
+site, 
 replace with your site's URL
 twitter_username: Gormati
 github_username: Gormaati
