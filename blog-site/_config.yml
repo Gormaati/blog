@@ -1,4 +1,4 @@
-# Site settings
+k# Site settings
 title: Banjara Community Blog
 email: naveenkorra2014@gmail.com
 description: >-
@@ -7,8 +7,8 @@ description: >-
 and
   Hindi.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gormaati.github.io" # Replace with your actual GitHub Pages 
-URL
+url: "https://gormati.github.io/blog" # Replace with your actual GitHub 
+Pages URL
 twitter_username: Gormati
 github_username: Gormaati
 
