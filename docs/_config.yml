@@ -1,0 +1,34 @@
+# Site settings
+title: Banjara Community Blog
+email: naveenkorra2014@gmail.com
+description: >-
+  A blog dedicated to sharing information and stories about the Banjara
+  community. Available in multiple languages including English, Telugu, 
+and
+  Hindi.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gormaati.github.io" # the base hostname & protocol for your 
+site
+
+twitter_username: Gormati
+github_username: Gormaati
+
+# Multilingual settings
+languages: ["en", "te", "hi"]
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
