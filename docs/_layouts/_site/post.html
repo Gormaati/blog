@@ -1,29 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | escape }}</title>
+  <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
 </head>
 <body>
   <header>
     <h1>{{ site.title }}</h1>
-    <nav>
-      <ul>
-        <li><a href="{{ "/" | relative_url }}">Home</a></li>
-        <li><a href="{{ "/posts" | relative_url }}">Posts</a></li>
-      </ul>
-    </nav>
   </header>
   <main>
-    <article>
-      <h1>{{ page.title }}</h1>
-      <p>{{ page.date | date_to_string }}</p>
-      {{ content }}
-    </article>
+    {{ content }}
   </main>
   <footer>
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    <p>Contact: {{ site.email }}</p>
   </footer>
 </body>
 </html>

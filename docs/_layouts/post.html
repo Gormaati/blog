@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 </head>
 <body>
@@ -11,19 +12,15 @@
     <nav>
       <ul>
         <li><a href="{{ "/" | relative_url }}">Home</a></li>
-        <li><a href="{{ "/posts" | relative_url }}">Posts</a></li>
+        <li><a href="{{ "/about" | relative_url }}">About</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <article>
-      <h1>{{ page.title }}</h1>
-      <p>{{ page.date | date_to_string }}</p>
-      {{ content }}
-    </article>
+    {{ content }}
   </main>
   <footer>
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
   </footer>
 </body>
 </html>

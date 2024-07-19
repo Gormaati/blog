@@ -3,14 +3,8 @@ title: Gormati Blog
 email: naveenkorra2014@gmail.com
 description: >-
   A blog dedicated to sharing information and stories about the Gormati community.
-  Available in multiple languages including English, Telugu, and Hindi.
-baseurl: "" # Leave empty if your site is at the root of your GitHub Pages site
-url: "https://gormaati.github.io/blog" # URL of your GitHub Pages site
-twitter_username: Gormati
-github_username: Gormaati
-
-# Multilingual settings
-languages: ["en", "te", "hi"]
+baseurl: "/blog"  # Adjust if needed
+url: "https://gormaati.github.io"  # Base URL for your site
 
 # Build settings
 theme: minima
@@ -23,14 +17,5 @@ exclude:
   - Gemfile.lock
   - README.md
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - docs/
-  - notebooks/
-
-# Include files in _posts
-include:
-  - _posts/
+  - vendor/
 
