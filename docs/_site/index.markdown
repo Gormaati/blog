@@ -1,9 +1,9 @@
 
 
 [Read the English version of the Gormati Community 
-blog](posts/gormati_blog_en.html)
+blog](docs/_site/docs/2024/07/12/gormati-blog-en.html)
 [Read the Hindi version of the Gormati Community 
-blog](posts/gormati_blog_hi.html)
+blog](docs/_site/docs/2024/07/12/gormati-blog-hi.html)
 [Read the Telugu version of the Gormati Community 
-blog](posts/gormati_blog_te.html)
+blog](docs/_site/docs/2024/07/12/gormati-blog-te.html)
 
