@@ -4,8 +4,8 @@ description: >
   A blog dedicated to sharing information and stories about the Banjara
   community. Available in multiple languages including English, Telugu, and
   Hindi.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gormaati.github.io" # replace with your site's URL
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "https://gormaati.github.io" # Replace with your site's URL
 twitter_username: Gormati
 github_username: Gormaati
 
@@ -30,4 +30,15 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+# Uncomment and modify this section if you need specific configurations
+# markdown: kramdown
+# kramdown:
+#   input: GFM
+
+# Uncomment to include any other Jekyll plugins or configurations
+# plugins:
+#   - jekyll-seo-tag
+#   - jekyll-sitemap
+#   - jekyll-paginate
 
