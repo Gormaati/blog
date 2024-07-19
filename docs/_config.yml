@@ -2,8 +2,7 @@
 title: Banjara Community Blog
 description: >
   A blog dedicated to sharing information and stories about the Banjara
-  community. Available in multiple languages including English, Telugu, 
-and
+  community. Available in multiple languages including English, Telugu, and
   Hindi.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gormaati.github.io" # replace with your site's URL
