@@ -5,9 +5,8 @@ description: >-
   A blog dedicated to sharing information and stories about the Banjara
   community. Available in multiple languages including English, Telugu, and
   Hindi.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://username.github.io" # the base hostname & protocol for your
-  site, replace with your site's URL
+baseurl: "/blog"  # Set this to the path of your site
+url: "https://gormaati.github.io/blog"  # The base hostname & protocol for your site
 twitter_username: Gormati
 github_username: Gormaati
 
