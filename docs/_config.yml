@@ -1,12 +1,11 @@
 # Site settings
-title: Banjara Community Blog
+title: Gormati Blog
 email: naveenkorra2014@gmail.com
 description: >-
-  A blog dedicated to sharing information and stories about the Banjara
-  community. Available in multiple languages including English, Telugu, and
-  Hindi.
-baseurl: "/blog"  # Set this to the path of your site
-url: "https://gormaati.github.io/blog"  # The base hostname & protocol for your site
+  A blog dedicated to sharing information and stories about the Gormati community.
+  Available in multiple languages including English, Telugu, and Hindi.
+baseurl: "" # Leave empty if your site is at the root of your GitHub Pages site
+url: "https://gormaati.github.io/blog" # URL of your GitHub Pages site
 twitter_username: Gormati
 github_username: Gormaati
 
@@ -28,5 +27,10 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - docs/
+  - notebooks/
+
+# Include files in _posts
+include:
   - _posts/
 
