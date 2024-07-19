@@ -1,11 +1,9 @@
 # Site settings
 title: Banjara Community Blog
-description: >
-  A blog dedicated to sharing information and stories about the Banjara
-  community. Available in multiple languages including English, Telugu, and
-  Hindi.
-baseurl: "" # The subpath of your site, e.g. /blog
-url: "https://gormaati.github.io" # Replace with your site's URL
+email: naveenkorra2014@gmail.com
+description: A blog dedicated to sharing information and stories about the Banjara community. Available in multiple languages including English, Telugu, and Hindi.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gormaati.github.io" # the base hostname & protocol for your site, replace with your site's URL
 twitter_username: Gormati
 github_username: Gormaati
 
@@ -16,9 +14,7 @@ languages: ["en", "te", "hi"]
 theme: minima
 plugins:
   - jekyll-feed
-
-# Permalink configuration
-permalink: /:categories/:year/:month/:day/:title.html
+  - jekyll-paginate
 
 # Exclude from processing
 exclude:
@@ -31,14 +27,45 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-# Uncomment and modify this section if you need specific configurations
-# markdown: kramdown
-# kramdown:
-#   input: GFM
+# Include Jupyter Notebook HTML files
+include:
+  - "*.html"
 
-# Uncomment to include any other Jekyll plugins or configurations
-# plugins:
-#   - jekyll-seo-tag
-#   - jekyll-sitemap
-#   - jekyll-paginate
+# Pagination settings
+paginate: 5
+paginate_path: "/page:num/"
+
+# Layout settings
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+  - scope:
+      path: ""
+      type: "page"
+    values:
+      layout: "default"
+
+  - scope:
+      path: ""
+      type: "html"
+    values:
+      layout: "default"
+
+# Custom collections
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+
+# Directory for Jupyter Notebook output
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "default"
 
