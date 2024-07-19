@@ -1,17 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-12T21:31:56+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2024/07/12/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-07-12T17:55:23+10:00</published><updated>2024-07-12T17:55:23+10:00</updated><id>http://localhost:4000/jekyll/update/2024/07/12/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/07/12/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-19T18:15:24+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Banjara Community Blog</title><subtitle>A blog dedicated to sharing information and stories about the Banjara community. Available in multiple languages including English, Telugu, and Hindi.
+</subtitle><entry xml:lang="en"><title type="html">Introduction to the Banjara Community</title><link href="http://localhost:4000/2024/07/12/banjara-community-intro-en.html" rel="alternate" type="text/html" title="Introduction to the Banjara Community" /><published>2024-07-12T00:00:00+10:00</published><updated>2024-07-12T00:00:00+10:00</updated><id>http://localhost:4000/2024/07/12/banjara-community-intro-en</id><content type="html" xml:base="http://localhost:4000/2024/07/12/banjara-community-intro-en.html"><![CDATA[<h2 id="english">English</h2>
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+<p>The Banjara community, also known as the Lamani or Lambadi, is a 
+traditionally nomadic ethnic group that resides primarily in the states of 
+Rajasthan, Maharashtra, Karnataka, and Andhra Pradesh in India. The 
+Banjara people are known for their vibrant culture, distinctive clothing, 
+and rich traditions.</p>
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+<p><img src="path_to_image_english.jpg" alt="Banjara Community" /></p>
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<nav class="nav-links">
+  <a href="index.html">Home</a>
+  <a href="previous_blog_post.html">Previous</a>
+  <a href="next_blog_post.html">Next</a>
+</nav>]]></content><author><name></name></author><summary type="html"><![CDATA[English]]></summary></entry><entry xml:lang="hi"><title type="html">बंजारा समुदाय का परिचय</title><link href="http://localhost:4000/2024/07/12/banjara-community-intro-hi.html" rel="alternate" type="text/html" title="बंजारा समुदाय का परिचय" /><published>2024-07-12T00:00:00+10:00</published><updated>2024-07-12T00:00:00+10:00</updated><id>http://localhost:4000/2024/07/12/banjara-community-intro-hi</id><content type="html" xml:base="http://localhost:4000/2024/07/12/banjara-community-intro-hi.html"><![CDATA[<h2 id="हिंदी">हिंदी</h2>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>बंजारा समुदाय, जिसे लमानी या लम्बाडी के नाम से भी जाना जाता है, एक पारंपरिक रूप से 
+घुमंतू जातीय समूह है जो मुख्य रूप से भारत के राजस्थान, महाराष्ट्र, कर्नाटक और आंध्र प्रदेश 
+राज्यों में निवास करता है। बंजारा लोग अपनी जीवंत संस्कृति, विशिष्ट परिधान और समृद्ध 
+परंपराओं के लिए जाने जाते हैं।</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p><img src="path_to_image_hindi.jpg" alt="बंजारा समुदाय" /></p>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<nav class="nav-links">
+  <a href="index.html">Home</a>
+  <a href="previous_blog_post.html">Previous</a>
+  <a href="next_blog_post.html">Next</a>
+</nav>]]></content><author><name></name></author><summary type="html"><![CDATA[हिंदी]]></summary></entry><entry xml:lang="te"><title type="html">బంజారా కమ్యూనిటీ పరిచయం</title><link href="http://localhost:4000/2024/07/12/banjara-community-intro-te.html" rel="alternate" type="text/html" title="బంజారా కమ్యూనిటీ పరిచయం" /><published>2024-07-12T00:00:00+10:00</published><updated>2024-07-12T00:00:00+10:00</updated><id>http://localhost:4000/2024/07/12/banjara-community-intro-te</id><content type="html" xml:base="http://localhost:4000/2024/07/12/banjara-community-intro-te.html"><![CDATA[<h2 id="తెలుగు">తెలుగు</h2>
+
+<p>బంజారా కమ్యూనిటీ, లమాని లేదా లంబాడి అని కూడా పిలుస్తారు, సంప్రదాయంగా ప్రవాస జీవులుగా ఉన్న ఒక తెగ. 
+వీరు ప్రధానంగా భారతదేశంలోని రాజస్థాన్, మహారాష్ట్ర, కర్ణాటక మరియు ఆంధ్ర ప్రదేశ్ రాష్ట్రాలలో నివసిస్తున్నారు. 
+బంజారా ప్రజలు వారి రంగురంగుల సంస్కృతి, ప్రత్యేక దుస్తులు మరియు సంపన్న సంప్రదాయాలకు ప్రసిద్ధి 
+చెందారు.</p>
+
+<p><img src="path_to_image_telugu.jpg" alt="బంజారా కమ్యూనిటీ" /></p>
+
+<nav class="nav-links">
+  <a href="index.html">Home</a>
+  <a href="previous_blog_post.html">Previous</a>
+  <a href="next_blog_post.html">Next</a>
+</nav>]]></content><author><name></name></author><summary type="html"><![CDATA[తెలుగు]]></summary></entry></feed>
