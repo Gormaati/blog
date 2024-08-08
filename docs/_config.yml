@@ -1,8 +1,8 @@
 # Site settings
-title: Gormati Blog
+title: Gormatti Blog
 email: naveenkorra2014@gmail.com
 description: >-
-  A blog dedicated to sharing information and stories about the Gormati community.
+  A blog dedicated to sharing information and stories about the Gormatti community.
 baseurl: "/blog"  # Adjust if needed
 url: "https://gormaati.github.io"  # Base URL for your site
 
