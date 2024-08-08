@@ -1,4 +1,4 @@
-# Welcome to the Blog
+
 
 [Read the English version of the Gormati Community 
 blog](posts/gormati_blog_en.html)
