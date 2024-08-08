@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Home Page
 ---
 
 [Read the English version of the Gormati Community 
