@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 [Read the English version of the Gormati Community 
 blog](/blog/docs/gormati_blog_en.html)
 [Read the Hindi version of the Gormati Community 
