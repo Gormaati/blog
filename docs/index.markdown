@@ -1,9 +1,8 @@
 
 
 [Read the English version of the Gormati Community 
-blog](posts/gormati_blog_en.html)
+blog](_posts/gormati_blog_en.html)
 [Read the Hindi version of the Gormati Community 
-blog](posts/gormati_blog_hi.html)
-[గోర్మట్టి సంఘం తెలుగు వెర్షన్ చదవండి
-బ్లాg](posts/gormati_blog_te.html)
+blog](_posts/gormati_blog_hi.html)
+[గొర్మట్టి కమ్యూనిటీ తెలుగు వెర్షన్ బ్లాగ్ చదవండి్](_posts/gormati_blog_te.html)
 
