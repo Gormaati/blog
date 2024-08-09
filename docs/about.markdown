@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
-About the Gormatti Blog
+# About 
 Welcome to the Gormatti Blog, a dedicated platform to explore, celebrate, and preserve the rich culture, history, and traditions of the Gormatti (Banjara) community. This blog is a space where we delve into the unique aspects of our heritage, sharing stories, insights, and reflections that connect us to our roots.
 
 Our Mission:
