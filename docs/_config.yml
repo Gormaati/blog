@@ -2,7 +2,7 @@ title: Gormatti Blog
 email: gormattibanjara@gmail.com
 description: >-
   A blog dedicated to sharing information and stories about the Gormatti community.
-baseurl: "/blogs/docs" # Adjust this if your GitHub Pages site is in a subdirectory
+baseurl: "/blogs" # Reflects that you're working directly in the docs folder under blogs
 url: "https://gormaati.github.io" # Your GitHub Pages URL
 
 # Build settings
